@@ -1,0 +1,26 @@
+.background{
+    background-color: rgb(58, 113, 223);
+
+}
+.service1 , .service2{
+    display: flex;
+    justify-content: space-between;
+}
+.service1 img,.service2 img{
+    width: 49%;
+    height: 260px;
+}
+.service1 p,.service2 p{
+    width: 49%;
+}
+p{
+    text-align: justify;
+    padding: 10px;
+}
+.service2{
+    flex-direction:row-reverse ;
+}
+.mybtn:hover{
+    background-color: rgb(5, 6, 5);
+    color: white;
+}
