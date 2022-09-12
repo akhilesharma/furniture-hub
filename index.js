@@ -78,5 +78,5 @@ app.post("/contact", encoder, (req, res) => {
     res.render("contact", { show: true })
 })
 
-var PORT = process.env.PORT | 8000
+var PORT = process.env.PORT || 8000
 app.listen(PORT, () => console.log(`Server is Running at Port ${PORT}`))
